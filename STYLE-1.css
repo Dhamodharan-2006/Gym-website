@@ -1,0 +1,120 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+.nlist{
+    display:block;
+    width: 60%;
+    margin: 20px auto;
+}
+.ulist li{
+    display: inline;
+    text-align: center;
+    font-size: 135px;
+    margin: 100px;
+    padding: 40px;
+    width: 10px;
+    right: 0px;
+    margin-left: 20px
+}
+.ulist li a{
+    color: black;
+    text-decoration: none;
+}
+.ulist li :hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+.division{
+    position: absolute;
+    right: 35px;
+    top: 40px;
+    display: inline-block;
+}
+.btn1{
+    margin: 0px 9px;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 80px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+h1{
+    text-align: center;
+    font-size: 110px;
+    background-color:purple;
+    color: beige;
+}
+.left{
+    display: inline-block;
+    position: relative;
+    padding-left: 60px;
+}
+.left img{
+width: 60%;
+height: 60%;
+}
+.high{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+    .high h1{
+    background-color: green;
+    color: lightgrey;
+    margin-left: 55%;
+    margin-top: -36%;
+
+}
+
+h2{
+    display: inline-block;
+font-size: 70px;
+color: black;
+font-weight:bolder;
+}
+p{
+    position:relative;
+    font-size: 50px;
+    color: grey;
+    margin-left: 30%;
+}
+.low ul{
+    margin-left: 60%;
+}
+.rate{
+    width: 99%;
+    margin: 30px;
+    display: block;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+.reg{
+    color: black;
+    font-size: 70px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    
+}
+.reg input{
+    color: black;
+}
+.field input,.field select,.field textarea,.field button,.field legend{
+    color: black;
+    font-size: 60px;
+}
+.footer{
+    text-align:left;
+    color: white;
+
+
+    background-color: rgb(17, 16, 16);
+}
+
